@@ -1,0 +1,52 @@
+.gly-heading-1 .tx-icon svg {
+	max-width: 150px;
+}
+.gly-about-3-popup-img img {
+    max-width: 320px;
+}
+.gly-about-3-img img {
+    max-width: 500px;
+}
+.ta-theme-switcher__btn {
+    cursor: pointer;
+}
+.ta-theme-switcher__btn.light-mode {
+	display: none;
+}
+[ta-theme=dark] .gly-blog-4-card .card-btn,
+[ta-theme=dark] .gly-price-4-card,
+[ta-theme="dark"] .gly-blog-4-card .card-content-wrap,
+[ta-theme="dark"] .gly-price-4-area,
+[ta-theme="dark"] body {
+	background: #262626 !important;
+}
+[ta-theme=dark] .ta-theme-switcher__btn.light-mode {
+    display: flex;
+}
+[ta-theme=dark] .ta-theme-switcher__btn.dark-mode {
+    display: none;
+}
+[ta-theme=dark] .gly-testimonial-5-slider-pagination .swiper-pagination-bullet,
+[ta-theme=dark] .gly-price-4-card .card-price .month,
+[ta-theme=dark] .gly-blog-4-card .meta-date span,
+[ta-theme=dark] .gly-project-4-item .item-list .name li,
+[ta-theme=dark] .gly-para-3,
+[ta-theme=dark] .gly-project-4-item .item-list .name,
+[ta-theme=dark] .gly-service-4-all-btn a,
+[ta-theme=dark] .gly-pr-btn-5 .text,
+[ta-theme=dark] .gly-para-3:is(.has-4),
+[ta-theme=dark] .gly-heading-4,
+[ta-theme=dark] .gly-section-title-3:is(.has-title-4)
+{
+    color: #fff;
+}
+.tx-brandWrapper .gly-client-4-wrap,
+.tx-brandWrapper
+{
+    animation: none;
+}
+@media(max-width: 767px) {
+    .gly-price-2-img-wrap .gly-price-2-img {
+        height: auto;
+    }
+}
